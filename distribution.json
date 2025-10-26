@@ -8,10 +8,120 @@
   },
   "servers": [
     {
-      "id": "Server1-1.21.10",
+      "id": "Genocide-1.21.4",
+      "name": "Genocide (Minecraft 1.21.4)",
+      "description": "Genocide Running Minecraft 1.21.4 (Fabric v0.16.9)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "genocide.mcv.kr",
+      "minecraftVersion": "1.21.4",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.16.9",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1387357,
+            "MD5": "27a6ef87676ce6316c777d81c1cd2962",
+            "url": "https://juwonjun.github.io/NebulaMods/repo/lib/net/fabricmc/fabric-loader/0.16.9/fabric-loader-0.16.9.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.4-fabric-0.16.9",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2857,
+                "MD5": "36c71953e3894698690375f1e2ffde7f",
+                "url": "https://juwonjun.github.io/NebulaMods/repo/versions/1.21.4-fabric-0.16.9/1.21.4-fabric-0.16.9.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.7.1",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126093,
+                "MD5": "e2cdd32d198ad31427d298eee9d39d8d",
+                "url": "https://juwonjun.github.io/NebulaMods/repo/lib/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.7.1",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35126,
+                "MD5": "4cd9e7178dfb85371bba3077e40cd514",
+                "url": "https://juwonjun.github.io/NebulaMods/repo/lib/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.7.1",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73459,
+                "MD5": "8344aea3c8b7d707e9d35a62710e77c9",
+                "url": "https://juwonjun.github.io/NebulaMods/repo/lib/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.7.1",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51939,
+                "MD5": "e85029f613b6469989cc7cf53fe06b74",
+                "url": "https://juwonjun.github.io/NebulaMods/repo/lib/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.7.1",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94519,
+                "MD5": "36d373a9cd6cad9b35db9f984c6b4bbb",
+                "url": "https://juwonjun.github.io/NebulaMods/repo/lib/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.15.4+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1494834,
+                "MD5": "991ca8be2c408fe19eb64014d8a18243",
+                "url": "https://juwonjun.github.io/NebulaMods/repo/lib/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.4",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 701826,
+                "MD5": "d0f4187a62328d4a95f3428434efbd48",
+                "url": "https://juwonjun.github.io/NebulaMods/repo/lib/net/fabricmc/intermediary/1.21.4/intermediary-1.21.4.jar"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Localhost-1.21.10",
       "name": "Server1 (Minecraft 1.21.10)",
       "description": "Server1 Running Minecraft 1.21.10 (Fabric v0.16.9)",
-      "icon": "https://cdn.discordapp.com/attachments/1356265848611930134/1431988069858279487/0ec1d2a8aa4da570.png?ex=68ff6a50&is=68fe18d0&hm=eeef4bd1aa0d244b24f16d249c7f324189132bb5db669e5c8d35396088a9f8a6&",
+      "icon": null,
       "version": "1.0.0",
       "address": "localhost:25565",
       "minecraftVersion": "1.21.10",
@@ -20,8 +130,8 @@
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
-      "mainServer": true,
-      "autoconnect": true,
+      "mainServer": false,
+      "autoconnect": false,
       "modules": [
         {
           "id": "net.fabricmc:fabric-loader:0.16.9",
